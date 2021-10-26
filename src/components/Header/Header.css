@@ -13,6 +13,15 @@
 }
 
 #header h3 {
-  font-size: 12px;
+  font-size: 2vh;
   margin: 0;
+}
+
+#header button {
+  background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
