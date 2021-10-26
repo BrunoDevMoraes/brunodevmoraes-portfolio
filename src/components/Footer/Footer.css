@@ -5,6 +5,12 @@ justify-content: space-between;
 font-size: 12px;
 padding: 0.5em 5em 0.5em 5em;
 margin-bottom: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+left: 0;
+height: 4vh;
+align-items: center;
 }
 
 #footer h3 {

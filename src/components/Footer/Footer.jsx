@@ -14,7 +14,7 @@ export default function Footer() {
       <a href="https://github.com/BrunoDevMoraes" target="blank" >
         <img src={githubLogo} alt="GitHub's logo" width="20vw"/>
       </a>
-      <a href="https://mailto:brunodevmoraes@gmail.com" target="blank">
+      <a href="mailto:brunodevmoraes@gmail.com" target="blank">
         <img src={envelope} alt="Envelope" width="20vw"/>
       </a>
       <a href="https://api.whatsapp.com/send?phone=+5532991172902" target="blank">

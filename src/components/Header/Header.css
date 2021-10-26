@@ -1,10 +1,15 @@
 #header {
   background-color: #ED6112;
   margin-top: 0;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 0.5em;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 4vh;
 }
 
 #header h3 {
