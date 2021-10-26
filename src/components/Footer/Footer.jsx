@@ -17,7 +17,7 @@ export default function Footer() {
       <a href="https://mailto:brunodevmoraes@gmail.com" target="blank">
         <img src={envelope} alt="Envelope" width="20vw"/>
       </a>
-      <a href="https://api.whatsapp.com/send?phone=32991172902" target="blank">
+      <a href="https://api.whatsapp.com/send?phone=+5532991172902" target="blank">
         <img src={whattsapp} alt="WhatsApp's logo" width="20vw"/>
       </a>
     </div>
