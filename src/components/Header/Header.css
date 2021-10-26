@@ -1,0 +1,13 @@
+#header {
+  background-color: #ED6112;
+  margin-top: 0;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header h3 {
+  font-size: 12px;
+  margin: 0;
+}
