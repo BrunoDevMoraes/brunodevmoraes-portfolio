@@ -1,7 +1,9 @@
 #footer {
 background-color: #ED6112;
+display: flex;
+justify-content: space-between;
 font-size: 12px;
-padding: 0.5em 0.5em 0.5em 0.5em;
+padding: 0.5em 5em 0.5em 5em;
 margin-bottom: 0;
 }
 
