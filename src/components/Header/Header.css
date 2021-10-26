@@ -13,7 +13,7 @@
 }
 
 #header h3 {
-  font-size: 2vh;
+  font-size: 0.8em;
   margin: 0;
 }
 
@@ -24,4 +24,9 @@
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+}
+
+#header button img {
+  width: 6vw;
+  height: 6vh;
 }
