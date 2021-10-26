@@ -9,16 +9,16 @@ export default function Footer() {
   return (
     <div id="footer">
       <a href="https://www.linkedin.com/in/brunodevmoraes/" target="blank">
-        <img src={linkedin} alt="Linkedin's logo" width="20vw"/>
+        <img src={linkedin} alt="Linkedin's logo"/>
       </a>
       <a href="https://github.com/BrunoDevMoraes" target="blank" >
-        <img src={githubLogo} alt="GitHub's logo" width="20vw"/>
+        <img src={githubLogo} alt="GitHub's logo"/>
       </a>
       <a href="mailto:brunodevmoraes@gmail.com" target="blank">
-        <img src={envelope} alt="Envelope" width="20vw"/>
+        <img src={envelope} alt="Envelope"/>
       </a>
       <a href="https://api.whatsapp.com/send?phone=+5532991172902" target="blank">
-        <img src={whattsapp} alt="WhatsApp's logo" width="20vw"/>
+        <img src={whattsapp} alt="WhatsApp's logo"/>
       </a>
     </div>
   )
