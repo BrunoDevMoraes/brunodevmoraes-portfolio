@@ -3,13 +3,12 @@ background-color: #ED6112;
 display: flex;
 justify-content: space-between;
 font-size: 12px;
-padding: 1vh 15vw 1vh 15vw;
+padding: 0.8vh 15vw 0.8vh 15vw;
 position: fixed;
 bottom: 2vh;
 right: 2vw;
 left: 2vw;
 height: 4vh;
-align-items: center;
 border-radius: 4vh;
 }
 
@@ -18,8 +17,12 @@ border-radius: 4vh;
   margin: 0;
 }
 
+#footer a {
+  margin: 0;
+}
+
 #footer a svg {
   width: 6vw;
-  height: 6vh;
+  height: 4vh;
   margin: 0;
 }
