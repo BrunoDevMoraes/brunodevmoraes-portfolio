@@ -7,8 +7,10 @@ import './Projects.css';
 
 export default function Projects() {
   return (
-    <div id="cards-lib">
-      {data.map((element) => <ProjectCard project={element}/>)}
+    <div id="cards-selection">
+      <button>Seta</button>
+      <ProjectCard project={data[1]}/>
+      <button>Seta</button>
     </div>
   )
 }

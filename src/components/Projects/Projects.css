@@ -1,8 +1,7 @@
-#cards-lib {
+#cards-selection {
   display: flex;
   margin-top: 1em;
-  width: 100vw;
-  height: 80vh;
+  justify-content: center;
   align-items: center;
   background-color: red;
 }
