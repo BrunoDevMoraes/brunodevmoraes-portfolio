@@ -1,0 +1,6 @@
+#card {
+  color: white;
+  margin: 1em;
+  display: flex;
+  background-color: green;
+}

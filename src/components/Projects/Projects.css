@@ -1,0 +1,8 @@
+#cards-lib {
+  display: flex;
+  margin-top: 1em;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+  background-color: red;
+}

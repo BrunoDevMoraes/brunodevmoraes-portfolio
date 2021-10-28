@@ -1,7 +1,7 @@
 #body {
   display: flex;
   flex-direction: column;
-  margin-top: 9vh;
-  margin-bottom: 10vh;
+  margin: 0 5vw 0 5vw;
   overflow: auto;
+  padding: 12vh 0 12vh 0;
 }
