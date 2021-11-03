@@ -5,3 +5,9 @@
   align-items: center;
   background-color: red;
 }
+
+#projects-section-title {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
