@@ -1,6 +1,32 @@
 #card {
-  color: white;
   margin: 1em;
-  display: flex;
-  background-color: green;
+  background-color: #ED6112;
+  border-radius: 15px;
+  width: 25vh;
+}
+
+#card a {
+  background: none;
+	color: #01002E;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  text-decoration: none;
+}
+
+#card a h3 {
+  text-align: center;
+  margin: 0.5em;
+}
+
+#card a p {
+  text-align: justify;
+  margin: 0.5em;
+}
+
+#card a img {
+  border-radius: 15px 15px 0 0;
+  height: 25vh;
+  width: 25vh;
 }

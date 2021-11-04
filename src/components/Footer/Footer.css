@@ -24,5 +24,7 @@ border-radius: 4vh;
 #footer a svg {
   width: 6vw;
   height: 4vh;
+  max-width: 30px;
+  max-height: 30px;
   margin: 0;
 }

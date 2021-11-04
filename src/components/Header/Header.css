@@ -1,7 +1,6 @@
 #header {
   background-color: #ED6112;
-  margin-top: 0;
-  padding: 0.5em;
+  padding: 1.5vh 1.5vw 1.5vh 1.5vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,20 +23,21 @@
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+  margin-left: 12px;
+  padding: 0;
 }
 
 #header button svg {
   width: 6vw;
-  height: 6vh;
+  height: 4vh;
   max-width: 30px;
   max-height: 30px;
-  margin-left: 2.5vw;
 }
 
 #header-buttons {
-  padding-left: 1em;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: nowrap;
+  margin-left: 5px;
 }
 
