@@ -15,4 +15,17 @@ const data = {
   ]
 }
 
+export const certifications = {
+  EN: [
+    {img: 'url', name: 'Certification 1', description: 'tal'},
+    {img: 'url', name: 'Certification 2', description: 'tal'},
+    {img: 'url', name: 'Certification 3', description: 'tal'},
+  ],
+  PT: [
+    {img: 'url', name: 'Certificação 1', description: 'tal'},
+    {img: 'url', name: 'Certificação 2', description: 'tal'},
+    {img: 'url', name: 'Certificação 3', description: 'tal'},
+  ]
+}
+
 export default data;

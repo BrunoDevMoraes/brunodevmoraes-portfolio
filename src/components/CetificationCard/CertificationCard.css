@@ -1,0 +1,19 @@
+#certification-card {
+  background-color: #ED6112;
+  color: #01002E;
+  display: flex;
+  border-radius: 15px;
+  width: 75vw;
+  margin: 0 5vw 5vw 5vw;
+}
+
+#certification-card img {
+  width: 30vw;
+  border-radius: 15px 0 0 15px;
+}
+
+#certification-info-box {
+  padding-left: 10px;
+  border-radius: 0 15px 15px 0;
+  width: 100%;
+}

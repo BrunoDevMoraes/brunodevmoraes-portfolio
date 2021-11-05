@@ -1,0 +1,10 @@
+#certfications-section-title {
+  color: #ED6112;
+  text-align: center;
+}
+
+#certfications-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
