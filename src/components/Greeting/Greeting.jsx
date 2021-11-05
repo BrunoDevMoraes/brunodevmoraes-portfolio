@@ -18,7 +18,7 @@ export default function Greeting() {
     return (
       <h3 id="greeting">
         Olá! Obrigado por visitar minha página! Meu nome é Bruno.
-        Eu sou engenheiro de software! Aqui você pode conferir meu portfólio e me conhecer melhor!
+        Sou desenvolvedor de software! Aqui você pode conferir meu portfólio e me conhecer melhor!
         Fique à vontade para entrar em contato comigo.
       </h3>
     )

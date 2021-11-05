@@ -16,11 +16,11 @@ export default function Header() {
   function renderHeaderTitle() {
     if (language === 'PT') {
       return (
-        <h3>Portfólio de Desenvolvimento de Software de Bruno</h3>
+        <h3>Portfólio de Bruno</h3>
       )
     }
     return (
-        <h3>Bruno's Software Development Portfolio</h3>
+        <h3>Bruno's Portfolio</h3>
     )
   }
 
