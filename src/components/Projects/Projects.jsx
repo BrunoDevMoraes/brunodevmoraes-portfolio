@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
-import ProjectCard from '../ProjectCard/ProjectCard'
+import ProjectCard from '../ProjectCard/ProjectCard';
 import data from '../../data';
+import AppContext from '../../context/AppContext';
 import './Projects.css';
 
 
 export default function Projects() {
+  const { language } = useContext(AppContext);
+
   return (
     <div id="projects-section">
-      <h3 id="projects-section-title">My Projects</h3>
+      {language === 'PT' ? <h3 id="projects-section-title">Meus Projetos</h3>
+      : <h3 id="projects-section-title">My Projects</h3>}
       <div id="cards-selection">
         <button>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ED6112" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
