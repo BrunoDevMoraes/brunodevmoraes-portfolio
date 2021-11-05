@@ -1,10 +1,11 @@
 #certification-card {
-  background-color: #ED6112;
-  color: #01002E;
+  background-color: #01002E;
+  color: #ED6112;
   display: flex;
   border-radius: 15px;
   width: 75vw;
   margin: 0 5vw 5vw 5vw;
+  box-shadow: 0px 5px 15px #01002E;
 }
 
 #certification-card img {

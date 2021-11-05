@@ -8,7 +8,7 @@ export default function Certifications() {
   const { language } = useContext(AppContext)
 
   return (
-    <div>
+    <div id="certifications-full-section">
       {language === 'PT'
       ? <>
           <h3 id="certfications-section-title">Minhas Certificações</h3>
