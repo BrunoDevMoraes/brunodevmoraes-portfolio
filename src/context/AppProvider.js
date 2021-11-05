@@ -4,9 +4,13 @@ import AppContext from './AppContext';
 
 function Provider({ children }) {
   const [language, setLanguage] = useState('EN');
+  const [theme, setTheme] = useState('dark');
+
   const contextValue = {
     language,
-    setLanguage
+    setLanguage,
+    theme,
+    setTheme,
   };
 
   return (
