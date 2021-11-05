@@ -2,7 +2,7 @@
   margin: 1em;
   background-color: #ED6112;
   border-radius: 15px;
-  width: 25vh;
+  width: 50vw;
 }
 
 #card a {
@@ -27,6 +27,5 @@
 
 #card a img {
   border-radius: 15px 15px 0 0;
-  height: 25vh;
-  width: 25vh;
+  width: 50vw;
 }
