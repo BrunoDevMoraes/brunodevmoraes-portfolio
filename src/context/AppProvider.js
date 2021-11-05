@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import AppContext from './AppContext';
 
 function Provider({ children }) {
-  const [language, setLanguage] = useState();
+  const [language, setLanguage] = useState('EN');
   const contextValue = {
     language,
     setLanguage
