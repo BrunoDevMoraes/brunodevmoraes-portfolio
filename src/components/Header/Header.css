@@ -1,5 +1,18 @@
-#header {
+.light-header {
+  background-color: #01002E;
+  color: #ED6112;
+}
+
+.dark-header {
   background-color: #ED6112;
+  color: #01002E;
+}
+
+.light-svg {
+  filter: invert(40%) sepia(65%) saturate(2333%) hue-rotate(358deg) brightness(99%) contrast(89%);
+}
+
+#header {
   padding: 1.5vh 3vw 1.5vh 2vw;
   display: flex;
   align-items: center;
@@ -13,7 +26,6 @@
 
 #header h3 {
   margin: 0;
-  color: #01002E;
 }
 
 #header button {

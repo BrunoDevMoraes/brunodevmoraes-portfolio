@@ -36,7 +36,7 @@ export default function Header() {
     if (language === 'PT') {
       return (
         <button onClick={handleLanguageButton}>
-          <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className={theme === 'dark' ? '' : 'light-svg'} width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5.75 7.37109H3.28516V9.38672H6.14844V10H2.53516V4.3125H6.10938V4.92969H3.28516V6.75781H5.75V7.37109ZM11.4531 10H10.6992L7.83594 5.61719V10H7.08203V4.3125H7.83594L10.707 8.71484V4.3125H11.4531V10Z" fill="#01002E"/>
             <line y1="12.5" x2="14" y2="12.5" stroke="#01002E"/>
             <line y1="-0.5" x2="12" y2="-0.5" transform="matrix(0 -1 -1 0 13 13)" stroke="#01002E"/>
@@ -48,7 +48,7 @@ export default function Header() {
     }
     return (
         <button onClick={handleLanguageButton}>
-          <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className={theme === 'dark' ? '' : 'light-svg'} width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3.5 7.77344V10H2.75V4.3125H4.84766C5.47005 4.3125 5.95703 4.47135 6.30859 4.78906C6.66276 5.10677 6.83984 5.52734 6.83984 6.05078C6.83984 6.60286 6.66667 7.02865 6.32031 7.32812C5.97656 7.625 5.48307 7.77344 4.83984 7.77344H3.5ZM3.5 7.16016H4.84766C5.2487 7.16016 5.55599 7.06641 5.76953 6.87891C5.98307 6.6888 6.08984 6.41536 6.08984 6.05859C6.08984 5.72005 5.98307 5.44922 5.76953 5.24609C5.55599 5.04297 5.26302 4.9375 4.89062 4.92969H3.5V7.16016ZM11.7266 4.92969H9.89844V10H9.15234V4.92969H7.32812V4.3125H11.7266V4.92969Z" fill="#01002E"/>
             <line y1="12.5" x2="14" y2="12.5" stroke="#01002E"/>
             <line y1="-0.5" x2="12" y2="-0.5" transform="matrix(0 -1 -1 0 13 13)" stroke="#01002E"/>
@@ -79,13 +79,13 @@ export default function Header() {
   }
 
     return (
-        <div id="header">
+        <div id="header" className={theme === 'dark' ? 'dark-header' : 'light-header'}>
             {renderHeaderTitle()}
             <div id="header-buttons">
                 {renderThemeButton()}
                 {renderLanguageButton()}
                 <button>
-                  <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className={theme === 'dark' ? '' : 'light-svg'} width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line y1="2.3125" x2="20.25" y2="2.3125" stroke="#01002E" stroke-width="3.375"/>
                     <line y1="11.3125" x2="20.25" y2="11.3125" stroke="#01002E" stroke-width="3.375"/>
                     <path d="M0 6.8125H20.25" stroke="#01002E" stroke-width="3.375"/>
