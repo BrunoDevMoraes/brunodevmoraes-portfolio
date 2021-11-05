@@ -7,8 +7,8 @@ export default function ProjectCard({project}) {
     <div id="card">
       <a href="https://google.com">
         <img src={Bruno} alt="Project's gif"/>
-        <h3>Project's Name {project}</h3>
-        <p>Project's Description</p>
+        <h3>{project.name}</h3>
+        <p>{project.description}</p>
       </a>
     </div>
   )
