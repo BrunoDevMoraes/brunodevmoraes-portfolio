@@ -1,13 +1,11 @@
 #card {
   margin: 1em;
-  background-color: #ED6112;
   border-radius: 15px;
   width: 50vw;
 }
 
 #card a {
   background: none;
-	color: #01002E;
 	border: none;
 	font: inherit;
 	cursor: pointer;
@@ -28,4 +26,20 @@
 #card a img {
   border-radius: 15px 15px 0 0;
   width: 50vw;
+}
+
+.light-card {
+  background-color: #01002E;
+}
+
+.dark-card {
+  background-color: #ED6112;
+}
+
+.light-link {
+  color: #ED6212;
+}
+
+.dark-link {
+  color: #01002E;
 }

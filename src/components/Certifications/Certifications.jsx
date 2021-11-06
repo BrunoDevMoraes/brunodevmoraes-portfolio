@@ -5,10 +5,13 @@ import CertificationCard from '../CetificationCard/CertificationCard';
 import './Certifications.css';
 
 export default function Certifications() {
-  const { language } = useContext(AppContext)
+  const { language, theme } = useContext(AppContext)
 
   return (
-    <div id="certifications-full-section">
+    <div
+      id="certifications-full-section"
+      className={theme === 'dark' ? 'dark-certifications' : 'light-certifications'}
+    >
       {language === 'PT'
       ? <>
           <h3 id="certfications-section-title">Minhas Certificações</h3>
