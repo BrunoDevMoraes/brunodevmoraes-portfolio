@@ -16,7 +16,7 @@ export default function Greeting() {
       );
     }
     return (
-      <h3 id="greeting">
+      <h3 id="greeting" className={theme === 'dark' ? 'dark-greeting' : 'light-greeting'}>
         Olá! Obrigado por visitar minha página! Meu nome é Bruno.
         Sou desenvolvedor de software! Aqui você pode conferir meu portfólio e me conhecer melhor!
         Fique à vontade para entrar em contato comigo.
