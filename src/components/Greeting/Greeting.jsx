@@ -3,12 +3,12 @@ import AppContext from '../../context/AppContext.js';
 import './Greeting.css';
 
 export default function Greeting() {
-  const { language } = useContext(AppContext)
+  const { language, theme } = useContext(AppContext)
 
   function renderGreeting() {
     if (language === 'EN') {
       return (
-        <h3 id="greeting">
+        <h3 id="greeting" className={theme === 'dark' ? 'dark-greeting' : 'light-greeting'}>
           Hello! Thanks for visiting my page! My name's Bruno.
           I am a software developer! Here you can check it out my portfolio and get to know me better!
           Feel comfortable to contact me.

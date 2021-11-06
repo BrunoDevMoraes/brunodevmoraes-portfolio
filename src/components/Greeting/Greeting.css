@@ -1,5 +1,12 @@
 #greeting {
-  color: #ED6112;
   text-align: justify;
   margin: 0 5vw 5vh 5vw;
+}
+
+.light-greeting {
+  color: #01002E;
+}
+
+.dark-greeting {
+  color: #ED6112;
 }
