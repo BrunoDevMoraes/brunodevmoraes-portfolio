@@ -3,7 +3,7 @@ import AppContext from '../../context/AppContext';
 import './Abilities.css';
 
 export default function Abilities() {
-  const { language } = useContext(AppContext);
+  const { language, theme } = useContext(AppContext);
 
   function renderAbilities() {
     if (language === 'PT') {
@@ -11,7 +11,7 @@ export default function Abilities() {
         <div id="abilities">
         <div id="hard">
           <h3>Hard Skills</h3>
-          <ul>
+          <ul className={theme === 'dark' ? 'dark-abilities' : 'light-abilities'}>
             <li>JavaScript</li>
             <li>HTML5</li>
             <li>CSS3</li>
@@ -26,7 +26,7 @@ export default function Abilities() {
         </div>
         <div id="soft">
           <h3>Soft Skills</h3>
-          <ul>
+          <ul className={theme === 'dark' ? 'dark-abilities' : 'light-abilities'}>
             <li>Comunicação</li>
             <li>Criatividade</li>
             <li>Empatia</li>
@@ -43,7 +43,7 @@ export default function Abilities() {
       <div id="abilities">
         <div id="hard">
           <h3>Hard Skills</h3>
-          <ul>
+          <ul className={theme === 'dark' ? 'dark-abilities' : 'light-abilities'}>
             <li>JavaScript</li>
             <li>HTML5</li>
             <li>CSS3</li>
@@ -58,7 +58,7 @@ export default function Abilities() {
         </div>
         <div id="soft">
           <h3>Soft Skills</h3>
-          <ul>
+          <ul className={theme === 'dark' ? 'dark-abilities' : 'light-abilities'}>
             <li>Communication</li>
             <li>Creativity</li>
             <li>Empathy</li>

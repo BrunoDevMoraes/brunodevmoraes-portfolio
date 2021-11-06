@@ -1,9 +1,16 @@
 #abilities {
-  color: white;
   margin-top: 1em;
 }
 
 #abilities h3 {
   color: #ED6112;
   margin: 0;
+}
+
+.light-abilities {
+  color: #01002E;
+}
+
+.dark-abilities {
+  color: white;
 }
