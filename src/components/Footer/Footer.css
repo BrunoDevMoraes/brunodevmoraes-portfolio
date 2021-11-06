@@ -1,15 +1,14 @@
 #footer {
-background-color: #ED6112;
-display: flex;
-justify-content: space-between;
-font-size: 12px;
-padding: 0.8vh 15vw 0.8vh 15vw;
-position: fixed;
-bottom: 2vh;
-right: 3vw;
-left: 3vw;
-height: 4vh;
-border-radius: 4vh;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 0.8vh 15vw 0.8vh 15vw;
+  position: fixed;
+  bottom: 2vh;
+  right: 3vw;
+  left: 3vw;
+  height: 4vh;
+  border-radius: 4vh;
 }
 
 #footer h3 {
@@ -27,4 +26,16 @@ border-radius: 4vh;
   max-width: 30px;
   max-height: 30px;
   margin: 0;
+}
+
+.light-svg {
+  filter: invert(40%) sepia(65%) saturate(2333%) hue-rotate(358deg) brightness(99%) contrast(89%);
+}
+
+.light-footer {
+  background-color: #01002E;
+}
+
+.dark-footer {
+  background-color: #ED6112;
 }
