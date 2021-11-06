@@ -1,5 +1,12 @@
 #main {
-  background-color: #01002E;
   display: flex;
   flex-direction: column;
+}
+
+.dark-page {
+  background-color: #01002E;
+}
+
+.light-page {
+  background-color: white;
 }

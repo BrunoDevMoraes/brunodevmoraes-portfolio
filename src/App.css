@@ -1,4 +1,11 @@
 body {
 margin: 0;
-background-color: #01002E;
+}
+
+.dark-app {
+  background-color: #01002E;
+}
+
+.light-app {
+  background-color: white;
 }
