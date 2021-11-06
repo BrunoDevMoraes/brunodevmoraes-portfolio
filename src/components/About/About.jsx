@@ -4,15 +4,15 @@ import AppContext from '../../context/AppContext';
 import './About.css';
 
 export default function About() {
-  const { language } = useContext(AppContext);
+  const { language, theme } = useContext(AppContext);
 
   function renderAbout() {
     if (language === 'PT') {
       return (
         <div id="about">
-          <img src={Bruno} alt="Bruno smiling "/>
+          <img src={Bruno} alt="Bruno smiling"/>
           <h3>Conheça-me</h3>
-          <p>
+          <p className={theme === 'dark' ? 'dark-about-text' : 'light-about-text'}>
           Sou apaixonado por tecnologia, inovação e elaboração de projetos.
           Comunicativo e criativo, acredito em iniciativas que se preocupam
           com pessoas e que se propõem a construir soluções para uma sociedade mais integrada.
@@ -26,7 +26,7 @@ export default function About() {
       <div id="about">
         <img src={Bruno} alt="Bruno smiling "/>
         <h3>Get to know me</h3>
-        <p>
+        <p className={theme === 'dark' ? 'dark-about-text' : 'light-about-text'}>
           I'm passionate about technology,
           innovation and project development.
           I am communicative, creative and I believe

@@ -1,5 +1,4 @@
 #about {
-  color: white;
   margin: 0 5vw 0 5vw;
   display: flex;
   flex-direction: column;
@@ -16,4 +15,12 @@
 #about h3 {
   color: #ED6112;
   margin: 0;
+}
+
+.light-about-text {
+  color: #01002E;
+}
+
+.dark-about-text {
+  color: white;
 }
