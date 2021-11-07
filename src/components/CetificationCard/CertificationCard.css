@@ -5,14 +5,18 @@
 }
 
 #certification-card a img {
-  width: 30%;
+  width: 85px;
   border-radius: 15px 0 0 15px;
 }
 
 #certification-info-box {
   padding-left: 10px;
+  padding-bottom: 10px;
   border-radius: 0 15px 15px 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 #certification-card a {
@@ -36,7 +40,16 @@
   box-shadow: 0px 5px 15px #01002E;
 }
 
-
 #card-information-img {
   display: flex;
+}
+
+#certification-info-box p {
+  margin: 0;
+  padding: 0;
+}
+
+#certification-info-box h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
