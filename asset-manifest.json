@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/brunodevmoraes-portfolio/static/css/main.a0c6c959.chunk.css",
-    "main.js": "/brunodevmoraes-portfolio/static/js/main.922aec17.chunk.js",
-    "main.js.map": "/brunodevmoraes-portfolio/static/js/main.922aec17.chunk.js.map",
+    "main.css": "/brunodevmoraes-portfolio/static/css/main.091e5103.chunk.css",
+    "main.js": "/brunodevmoraes-portfolio/static/js/main.89418144.chunk.js",
+    "main.js.map": "/brunodevmoraes-portfolio/static/js/main.89418144.chunk.js.map",
     "runtime-main.js": "/brunodevmoraes-portfolio/static/js/runtime-main.211873f4.js",
     "runtime-main.js.map": "/brunodevmoraes-portfolio/static/js/runtime-main.211873f4.js.map",
     "static/js/2.47caf58d.chunk.js": "/brunodevmoraes-portfolio/static/js/2.47caf58d.chunk.js",
@@ -10,14 +10,15 @@
     "static/js/3.408899b6.chunk.js": "/brunodevmoraes-portfolio/static/js/3.408899b6.chunk.js",
     "static/js/3.408899b6.chunk.js.map": "/brunodevmoraes-portfolio/static/js/3.408899b6.chunk.js.map",
     "index.html": "/brunodevmoraes-portfolio/index.html",
-    "static/css/main.a0c6c959.chunk.css.map": "/brunodevmoraes-portfolio/static/css/main.a0c6c959.chunk.css.map",
+    "static/css/main.091e5103.chunk.css.map": "/brunodevmoraes-portfolio/static/css/main.091e5103.chunk.css.map",
     "static/js/2.47caf58d.chunk.js.LICENSE.txt": "/brunodevmoraes-portfolio/static/js/2.47caf58d.chunk.js.LICENSE.txt",
-    "static/media/Bruno.f4452213.jpg": "/brunodevmoraes-portfolio/static/media/Bruno.f4452213.jpg"
+    "static/media/Bruno.f4452213.jpg": "/brunodevmoraes-portfolio/static/media/Bruno.f4452213.jpg",
+    "static/media/Trybe.4be4b2db.jpg": "/brunodevmoraes-portfolio/static/media/Trybe.4be4b2db.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.211873f4.js",
     "static/js/2.47caf58d.chunk.js",
-    "static/css/main.a0c6c959.chunk.css",
-    "static/js/main.922aec17.chunk.js"
+    "static/css/main.091e5103.chunk.css",
+    "static/js/main.89418144.chunk.js"
   ]
 }
