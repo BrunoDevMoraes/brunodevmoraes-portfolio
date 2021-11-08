@@ -3,7 +3,7 @@ import AppContext from '../../context/AppContext';
 import './Header.css';
 
 export default function Header() {
-  const { language, setLanguage, theme, setTheme } = useContext(AppContext);
+  const { language, setLanguage, theme, setTheme, hiddenMenu, setHiddenMenu } = useContext(AppContext);
 
   function handleLanguageButton() {
     if (language === 'PT') {
@@ -84,7 +84,7 @@ export default function Header() {
             <div id="header-buttons">
                 {renderThemeButton()}
                 {renderLanguageButton()}
-                <button>
+                <button onClick={() => setHiddenMenu(!hiddenMenu)}>
                   <svg className={theme === 'dark' ? '' : 'light-svg'} width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line y1="2.3125" x2="20.25" y2="2.3125" stroke="#01002E" stroke-width="3.375"/>
                     <line y1="11.3125" x2="20.25" y2="11.3125" stroke="#01002E" stroke-width="3.375"/>

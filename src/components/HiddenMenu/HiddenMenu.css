@@ -1,0 +1,53 @@
+#hidden-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 7vh;
+  right: 0;
+  left: 0;
+}
+
+#decorative-rectangle {
+  width: 100%;
+  height: 5px;
+}
+
+#hidden-menu a {
+  background: none;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  text-align: center;
+}
+
+.light-hidden-menu {
+  background-color: white;
+  color: #ED6112;
+}
+
+.dark-hidden-menu {
+  background-color: #01002E;
+  color: white;
+}
+
+.light-decorative-rectangle {
+  background-color: #01002E;
+}
+
+.dark-decorative-rectangle {
+  background-color: #ED6112;
+}
+
+.light-option {
+  border-bottom: 1px solid #01002E;
+}
+
+.dark-option {
+  border-bottom: 1px solid #ED6112;
+}
+
