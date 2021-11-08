@@ -13,9 +13,10 @@ export default function CertificationCard({info}) {
       <a href={info.link} target="blank" id="card-information-img">
         <img src={info.img} alt="Certification picure"/>
         <div id="certification-info-box">
-          <h3>{info.name}</h3>
-          <p>{info.issuance}</p>
-          <p>{info.expiration}</p>
+          <h4>{info.name}</h4>
+          <h5>{info.company}</h5>
+          <h5>{info.issuance}</h5>
+          <h5>{info.expiration}</h5>
         </div>
       </a>
     </div>
