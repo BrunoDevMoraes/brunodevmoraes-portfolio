@@ -1,16 +1,23 @@
-#abilities {
-  margin-top: 1em;
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  #abilities {
+    margin-top: 1em;
+  }
+
+  #abilities h3 {
+    color: #ED6112;
+    margin: 0;
+  }
+
+  .light-abilities {
+    color: #01002E;
+  }
+
+  .dark-abilities {
+    color: white;
+  }
 }
 
-#abilities h3 {
-  color: #ED6112;
-  margin: 0;
+@media screen and (min-width: 801px) {
+
 }
 
-.light-abilities {
-  color: #01002E;
-}
-
-.dark-abilities {
-  color: white;
-}

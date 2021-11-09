@@ -1,26 +1,33 @@
-#certfications-section-title {
-  text-align: center;
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  #certfications-section-title {
+    text-align: center;
+  }
+
+  #certfications-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #certifications-full-section {
+    border-radius: 15px;
+    margin-top: 2em;
+    padding-bottom: 0.5em;
+  }
+
+  .light-certifications {
+    background-color: #01002E;
+    color: rgb(237,97,18);
+  }
+
+  .dark-certifications {
+    background-color: rgb(237,97,18);
+    color: #01002E;
+  }
 }
 
-#certfications-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+@media screen and (min-width: 801px) {
+
 }
 
-#certifications-full-section {
-  border-radius: 15px;
-  margin-top: 2em;
-  padding-bottom: 0.5em;
-}
-
-.light-certifications {
-  background-color: #01002E;
-  color: rgb(237,97,18);
-}
-
-.dark-certifications {
-  background-color: rgb(237,97,18);
-  color: #01002E;
-}

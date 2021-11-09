@@ -1,45 +1,52 @@
-#card {
-  margin: 1em;
-  border-radius: 15px;
-  width: 50vw;
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  #card {
+    margin: 1em;
+    border-radius: 15px;
+    width: 50vw;
+  }
+
+  #card a {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    text-decoration: none;
+  }
+
+  #card a h3 {
+    text-align: center;
+    margin: 0.5em;
+  }
+
+  #card a p {
+    text-align: justify;
+    margin: 0.5em;
+  }
+
+  #card a img {
+    border-radius: 15px 15px 0 0;
+    width: 50vw;
+  }
+
+  .light-card {
+    background-color: #01002E;
+  }
+
+  .dark-card {
+    background-color: #ED6112;
+  }
+
+  .light-link {
+    color: #ED6212;
+  }
+
+  .dark-link {
+    color: #01002E;
+  }
 }
 
-#card a {
-  background: none;
-	border: none;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-  text-decoration: none;
+@media screen and (min-width: 801px) {
+
 }
 
-#card a h3 {
-  text-align: center;
-  margin: 0.5em;
-}
-
-#card a p {
-  text-align: justify;
-  margin: 0.5em;
-}
-
-#card a img {
-  border-radius: 15px 15px 0 0;
-  width: 50vw;
-}
-
-.light-card {
-  background-color: #01002E;
-}
-
-.dark-card {
-  background-color: #ED6112;
-}
-
-.light-link {
-  color: #ED6212;
-}
-
-.dark-link {
-  color: #01002E;
-}
