@@ -18,6 +18,23 @@
 }
 
 @media screen and (min-width: 801px) {
+  #abilities {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+  }
 
+  #abilities h3 {
+    color: #ED6112;
+    margin: 0;
+  }
+
+  .light-abilities {
+    color: #01002E;
+  }
+
+  .dark-abilities {
+    color: white;
+  }
 }
 

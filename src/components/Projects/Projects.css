@@ -32,6 +32,35 @@
 }
 
 @media screen and (min-width: 801px) {
+  #cards-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
 
+  #projects-section-title {
+    color: #ED6112;
+    text-align: center;
+    margin: 0;
+  }
+
+  #cards-selection button {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+
+  #cards-selection button svg {
+    width: 5vh;
+    height: 5vh;
+  }
+
+  #projects-section {
+    margin-top: 1em;
+  }
 }
 

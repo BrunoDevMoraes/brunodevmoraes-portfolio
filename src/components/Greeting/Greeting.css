@@ -14,6 +14,17 @@
 }
 
 @media screen and (min-width: 801px) {
+  #greeting {
+    text-align: justify;
+    margin: 0 5vw 5vh 5vw;
+  }
 
+  .light-greeting {
+    color: #01002E;
+  }
+
+  .dark-greeting {
+    color: #ED6112;
+  }
 }
 

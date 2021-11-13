@@ -1,11 +1,27 @@
-body {
-margin: 0;
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  body {
+  margin: 0;
+  }
+
+  .dark-app {
+    background-color: #01002E;
+  }
+
+  .light-app {
+    background-color: white;
+  }
 }
 
-.dark-app {
-  background-color: #01002E;
-}
+@media screen and (min-width: 801px) {
+  body {
+    margin: 0;
+    }
 
-.light-app {
-  background-color: white;
+  .dark-page {
+    background-color: #01002E;
+  }
+
+  .light-page {
+    background-color: white;
+  }
 }

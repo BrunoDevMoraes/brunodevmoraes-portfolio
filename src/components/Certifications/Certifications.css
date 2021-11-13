@@ -28,6 +28,34 @@
 }
 
 @media screen and (min-width: 801px) {
+  #certfications-section-title {
+    text-align: center;
+  }
 
+  #certfications-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1vw 1vw 1vw;
+  }
+  /* pq quando quebra linha nao diminui a div? width de certifications-full-section*/
+  #certifications-full-section {
+    border-radius: 15px;
+    margin-top: 2em;
+    padding-bottom: 0.5em;
+    width: fit-content;
+    align-self: center;
+    max-width: 90vw;
+  }
+
+  .light-certifications {
+    background-color: #01002E;
+    color: rgb(237,97,18);
+  }
+
+  .dark-certifications {
+    background-color: rgb(237,97,18);
+    color: #01002E;
+  }
 }
 
