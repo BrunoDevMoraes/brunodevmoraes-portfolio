@@ -10,6 +10,6 @@
   #body {
     display: flex;
     flex-direction: column;
-    margin: 12vh 5vw 12vh 5vw;
+    margin: 12vh 5vw 5vh 5vw;
   }
 }
