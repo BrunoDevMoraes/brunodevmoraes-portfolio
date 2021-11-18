@@ -62,5 +62,10 @@
   #projects-section {
     margin-top: 1em;
   }
+
+  #projects-row {
+    display: flex;
+    overflow-x: auto;
+  }
 }
 

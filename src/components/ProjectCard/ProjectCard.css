@@ -50,7 +50,7 @@
   #card {
     margin: 1em;
     border-radius: 15px;
-    width: 50vw;
+    width: 20vw;
   }
 
   #card a {
@@ -74,7 +74,7 @@
 
   #card a img {
     border-radius: 15px 15px 0 0;
-    width: 50vw;
+    width: 20vw;
   }
 
   .light-card {
