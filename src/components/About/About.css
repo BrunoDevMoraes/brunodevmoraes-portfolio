@@ -25,6 +25,10 @@
   .dark-about-text {
     color: white;
   }
+
+  #about p {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 801px) {
@@ -37,7 +41,7 @@
   }
 
   #about img {
-    margin-bottom: 2.5vh;
+    margin-bottom: 0;
     height: 35vh;
     width: 35vh;
   }

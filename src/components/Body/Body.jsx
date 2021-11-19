@@ -10,9 +10,13 @@ export default function Body() {
   return (
     <div id="body">
       <Greeting />
+      <div id="redirect-about"></div>
       <About/>
+      <div id="redirect-abilities"></div>
       <Abilities/>
+      <div id="redirect-projects"></div>
       <Projects/>
+      <div id="redirect-certifications"></div>
       <Certifications/>
     </div>
   )
